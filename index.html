@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>خدمات زيادة المتابعين الشرعية — اسم شركتك</title>
+  <style>
+    body{font-family:Tahoma,Arial,Helvetica,sans-serif;direction:rtl;margin:0;background:#f6f9fb;color:#0b2233}
+    .wrap{max-width:1000px;margin:28px auto;padding:20px}
+    header{display:flex;justify-content:space-between;align-items:center}
+    .logo{font-weight:800;color:#056;letter-spacing:1px}
+    .hero{display:flex;gap:20px;align-items:center;margin-top:18px}
+    .left{flex:1}
+    .card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+    h1{margin:0 0 8px 0;font-size:26px}
+    p.lead{color:#345;line-height:1.6}
+    .plans{display:flex;gap:12px;margin-top:16px}
+    .plan{flex:1;padding:14px;border-radius:10px;border:1px solid #e6eef5}
+    .plan strong{display:block;font-size:20px;margin-top:6px}
+    .cta{margin-top:12px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:#056;color:#fff;text-decoration:none}
+    footer{margin-top:24px;text-align:center;color:#788a94;font-size:13px}
+    @media(max-width:760px){.hero{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><div class="logo">اسم شركتك</div><nav><a href="#plans">الباقات</a> | <a href="#how">كيف نعمل</a> | <a href="#contact">تواصل</a></nav></header>
+
+    <section class="hero">
+      <div class="left card">
+        <h1>نزيد متابعين حقيقيين لحسابك بطريقة قانونية</h1>
+        <p class="lead">حملات إعلانية مستهدفة — تحسين محتوى — تعاون مع مؤثّرين — مسابقات ذكية. نتائج قابلة للقياس وتحليل أسبوعي.</p>
+
+        <div id="plans" class="plans">
+          <div class="plan">
+            <div>Starter</div>
+            <strong>1,500 ج / شهر</strong>
+            <div>تحسين محتوى + جدولة + تقرير شهري (بدون تكلفة إعلانات)</div>
+            <div class="cta"><a class="btn" href="#contact" onclick="alert('شكراً! سيتم الاتصال بك')">اطلب الآن</a></div>
+          </div>
+
+          <div class="plan">
+            <div>Growth</div>
+            <strong>4,500 ج / شهر</strong>
+            <div>إدارة حملات + جدولة يومية + تحليل + مقترح ميزانية إعلانية</div>
+            <div class="cta"><a class="btn" href="#contact" onclick="alert('شكراً! سيتم الاتصال بك')">اطلب الآن</a></div>
+          </div>
+
+          <div class="plan">
+            <div>Pro</div>
+            <strong>10,000 ج / شهر</strong>
+            <div>إدارة كاملة + مؤثّرين محدودين + تقارير أسبوعية</div>
+            <div class="cta"><a class="btn" href="#contact" onclick="alert('شكراً! سيتم الاتصال بك')">اطلب الآن</a></div>
+          </div>
+        </div>
+      </div>
+
+      <aside style="width:320px">
+        <div class="card">
+          <h3>كيف نعمل؟</h3>
+          <ol>
+            <li>تحليل حسابك وحدد الجمهور</li>
+            <li>تحضير حملة إعلانية ومحتوى جذاب</li>
+            <li>تشغيل الحملة وتتبع الأداء</li>
+            <li>تحسين أسبوعي وتحويل زيارات لمتابعين دائمين</li>
+          </ol>
+        </div>
+        <div class="card" style="margin-top:12px">
+          <h3>طرق الدفع</h3>
+          <p>Stripe / PayPal / PayMob / Fawry / Vodafone Cash</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="how" style="margin-top:16px" class="card">
+      <h3>أسئلة شائعة</h3>
+      <p><b>هل الزيادة مضمونة؟</b> لا يمكن ضمان أعداد ثابتة — لكن نعدك بإدارة محترفة وشفافية وتقارير.</p>
+      <p><b>هل نستخدم بوتات؟</b> لا — كل الطرق شرعية وموافقة لشروط المنصات.</p>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:12px">
+      <h3>تواصل لبدء الحملة</h3>
+      <form onsubmit="event.preventDefault(); alert('شكراً! سنتواصل معك خلال 24 ساعة');">
+        <input required placeholder="الاسم" style="padding:10px;margin:6px 0;width:100%"/>
+        <input required placeholder="رقم أو إيميل" style="padding:10px;margin:6px 0;width:100%"/>
+        <textarea required placeholder="خوّص احتياجاتك" style="padding:10px;margin:6px 0;width:100%"></textarea>
+        <button class="btn" type="submit">أرسل</button>
+      </form>
+    </section>
+
+    <footer>© كل الحقوق محفوظة — اسم شركتك</footer>
+  </div>
+</body>
+      </html>
